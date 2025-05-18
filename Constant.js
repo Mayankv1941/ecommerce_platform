@@ -1,0 +1,12 @@
+export const CURL = "http://localhost:3000/"
+
+export const BASE_URL = "http://localhost:6001/"
+export const PRODUCT_LIST = BASE_URL+"productlist"
+export const SINGLE_PRODUCT = BASE_URL+"singleproduct?_id="
+export const INCRE_QTY = BASE_URL+"customer/increquantity?product_id="
+export const DECRE_QTY = BASE_URL+"customer/decrequantity?product_id="
+export const LOGIN = BASE_URL+"login"
+export const CUSTOMER = BASE_URL+ "customer/record?customer_id="
+export const CUSTOMER_PIC = BASE_URL + "customer/profilepic?customer_id="
+export const CUSTOMER_LIST = BASE_URL + "admin/customers"
+export const MANAGE_CUSTOMER = BASE_URL + "admin/managecustomer?s=verify&id="
